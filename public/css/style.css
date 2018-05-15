@@ -1,0 +1,11 @@
+.card-header
+{
+    background-color: black !important;
+    color: white !important;
+    font-size: 0.9em !important;
+}
+
+.card-body
+{
+    background-color: #CCCCCC;
+}
