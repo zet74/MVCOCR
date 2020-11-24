@@ -9,7 +9,7 @@
 <div class="card">
     <h3 class="card-header">
         <?= htmlspecialchars($post['title']) ?>
-        <em>le <?= $post['creation_date_fr'] ?></em>
+        <em>le <?= $post['creation_date'] ?></em>
     </h3>
     
     <p class="card-body">
