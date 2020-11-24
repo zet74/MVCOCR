@@ -8,7 +8,7 @@ class Manager
 {
     protected function dbConnect()
     {
-        $db = new \PDO('mysql:host=localhost;dbname=poo_simpleblog;charset=utf8', 'root', 'root');
+        $db = new \PDO('mysql:host=localhost;dbname=mvcocr;charset=utf8', 'root', '5MichelAnnecy');
         return $db;
     }
 }

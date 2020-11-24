@@ -14,7 +14,7 @@ while ($data = $posts->fetch())
     <div class="card">
         <h3 class="card-header">
             <?= htmlspecialchars($data['title']) ?>
-            <em>(le <?= $data['creation_date_fr'] ?>)</em>
+            <em>(le <?= $data['date_creation'] ?>)</em>
         </h3>
         
         <p class="card-body">
